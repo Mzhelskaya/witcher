@@ -1,0 +1,17 @@
+@media (max-width: 768px) {
+    .grid{
+        display: block;
+    }   
+    body{
+        background: url(img/bckg2.jpg) no-repeat;
+        background-size: cover;
+        background-color: rgba(200,100,0,.5);
+        background-blend-mode: multiply;
+        background-attachment: fixed;
+    }
+}
+@media(max-width:310px){
+    .image{
+        display: none;
+    }
+}
